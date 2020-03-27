@@ -9,7 +9,8 @@
 </head>
 
 <body>
-  <d iv id="container">
+  <div id="container-box">
+  <div class="main">
     <div id="header">
       <h1>Tec-Notice</h1>
       <nav id="nav-bar">
@@ -20,14 +21,55 @@
         </ul>
       </nav>
     </div>
-    <div id="content">
+ 
+    <div class="aside">
+      <h1 class="about">About</h1>
+      <h2>
+        <a
+          href="https://www.newscientist.com/article/2236305-gold-coated-fabric-that-emits-own-light-could-be-ultimate-safety-gear/"
+          class="lines"
+        >
+         - Gold-coated fabric that emits own light could be ultimate safety
+          gear.</a
+        >
+      </h2>
+      <h2>
+        <a
+          href="https://www.newscientist.com/tours/geneva-explore-dark-and-frozen-matter/?utm_source=display&utm_campaign=CERN&utm_medium=prospecting"
+          class="lines"
+          >-CERN and Mont Blanc: Dark and Frozen Matter: Switzerland and
+          France.</a
+        >
+      </h2>
+      <h2>
+        <a
+          href="https://www.newscientist.com/article/2235492-politicians-are-mulling-a-global-tax-rate-to-tame-the-tech-giants/"
+          class="lines"
+        >
+          -Politicians are mulling a global tax rate to tame the tech
+          giants.</a
+        >
+      </h2>
+      <h2>
+        <a
+          href="https://www.newscientist.com/article/mg24532754-200-world-in-lockdown-as-coronavirus-cases-soar/"
+          class="lines"
+        >
+          -World in lockdown as coronavirus cases soar.</a
+        >
+      </h2>
+    </div>
+
+    <div class="content">
       <article class="secondarticle">
         <h2>
           Apple’s latest iPad Pro might be the laptop replacement you’ve been
           waiting for.
         </h2>
-        <img src="data:image/jpeg;base64,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" alt="
-iPad Pro">
+        <img
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhIREhAWFRUWGRYVFhUWGBYSGBcYGBIXGBcYFRUYHSggGBolHRgVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0lICUtLSstLS0tLS0vLS0tLS0tLS0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS8tLS0tLS0tLf/AABEIAKgBLAMBEQACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAAAgQDBQYHAQj/xABKEAABAwEEBAYNCAkFAQAAAAABAAIDEQQFEiEGMUFRBxMiYXGBFSMkMlVygpGhsbLB0TVSYnSTlLPwFBczQnOSwtLhNFODovFF/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAMEAQIFBgf/xAA8EQEAAgECBAEIBwcEAwEAAAAAAQIDBBEFEiExURMUIkFhcYHBMpGxstHh8AYjMzRCUqEVcoLxJFNiFv/aAAwDAQACEQMRAD8A9sQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQSCCKAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICCQQRQQmkwglBxdn4SLJJjMchcGOLSQANX7wBNS07Hais7DoLsvkTF7AS18dMbHNo4VAI27iPOsDYY3b/QssGN2/0IGN2/0IGN2/0IGN2/0IGN2/0IGN2/0IGN2/0IGN2/0IHGOG0HqosDO01FUZEBAQEBAQEBAQEBAQEBAQEBAQEBAQEEggigqXt+yk8R/slB+R7FanRilSKDC5u0UOYI1g1GpZYev8BM5kda30NBhbXnyJ9yD1tAQEBAQEBAQEH1Bmj1BYZSQEBAQEBAQEBAQEBAQEBAQEBAQEBAQSCCKDHMg5m06E3bI4vfYYXOOZJbWqyw2t2XZBZmcXBE2NnzWigQW0BAQEBAQEBAQfQgsR6lhl9QEBAQEBAQEBAQEBAQEBAQEBAQEBAQSCCKCE2pBXqssFUCqBVAqgICAgICAgkEGePUsMpICAgICAgICAgICAgICAgICAgICAgIJBBFBjn1IOa0uvz9Ds009MRjY5wbqqaZAndWiyPB26W3zaO3C3FgcTRraMAFaUAa3VszzUN81aztLq6Tg+o1OPylNtvbP5PvZu+vCL/5z/atfOKrMfs7qvGv1z+CTb4vo/8A0X/zn+1bxlrtuf8A53V+Nfrn8EZL8vppobxfn9M09lTY688bwgy8F1GKdrbfX+S/Y579k728z1yOH9CmjTXn1wp5dFkxxvOzaG6dI6YuyYp/Fft8hZjS3mduinWd52hCW7dImkA3nr1dtf8A2LeuiyWjeNlHPxHFhvFLRPX2fm17pb+DsBvM11ftHa6E07zmKlrwzNaN42/XwM/EcWGsWtE9evT/AL9rJKNIGirrxcB87jHUOXirMcLzT2mPr/JVrxzTW6RE7+6PxUbJel9yOLW3k+oNM5HD+lbf6Rn69Y6e38ljLxPDjjeYn6vzXpxf7CAbzOertrv7FpHDM0xvvH6+CvTjmmtEzEW+qPxaS06VXxG+WPsnITFXFhkJGRANMt5UE6O8TMbx0jd0sWeuSlbxExFu26pFp1e7tV4z/wA5UNcVrdliImeyR02vetDeM48srNcNpnZtyTvsP0yvfwjOeiRyn8yyerZmcdu0dVmwcI97WaRshtr5QCKskPGNcNoNRUdINVFl098cbyxfHNe79Kw3txljba4oy/HC2ZkdaE4ow8NrQ557lA0fNHr2baYWStcDjbiyFKZ0LaVObTVpz2INmgICAgICAgICAgICAgICAgkEEUGK0akHnPCy7uG0j6H9TUHj2j/7CPyvbcudn/izH67Pf8D/AJGn/L70tgSVmtd3SmdkmzUUvIzGRnqHim3YtseSaSZcVM1dpX7ptJjcGldTFmi0dHndXpL1naXWMvSrWhpyxCvmK6OCYtPVxv8AT5pNrz4NreU7RCJD+6QeqqUmYybePRwNTwydVvWv0o6x749Xx+1wVpt4NsjA1HldWID+5djD0py+O8uFrsM8lo/siK/Hbef89HTW+RoszhIa7BXppkoscT5aJq81irac8TRyN02N8UjnEENzeOdpJPV/hTxHLNonxdvVZa5KRt7viaYXzR8MUbqPIq4/NB73yvV1hUcuXlnlg4Zo+atr3jp9v5frxcJNETaJMBNCSOkFcya2tmtMPW6fFvSsSjLCWHAO+1Zb+lJpMejXut8u3o17sggaH4nOxZHLUPP/AOKfHgx0yb2ndYrgrS+9539j7aLRXV5lJkzx6m98m/ZQtve9Y9652qtvT4/iq5vo/F+stAvky7/q1n/BaqCq0Dmm7reWjKz2kuli10ZLSssWWoOHKA35BB3UcgcA4GoIqCgkgICAgICAgICAgICAgICCQQRQYrTq60Hm/Cz/AKK0eIfWEHkFwntEfle25c7N1yy9/wAE/kKf8vvS2WGqlr0X7SiY1JzRs0rEzKxZ4023S16dF2MbCFrS01lvesXrtZYdazHqO5dzR5ItPVycmniLctuzbMtL54XjHlTVr2rpZIpWN9vi5mqxY9H+8pVo47CRaQ6lcQYGnUAC6mXUF08e3Lzex8p1Opm1bxPT0rTPvdHfJMxZBgyBBLuuuXMosNYpWbzLi6bbFE5N2n0tvttmb+jRNxz0y3Nadrt9dg/Jr5MltuaPX6nQ4dpZzx5S87U3+ufZ85eccXI+YCSpfUEnPWfyFRrhyXy7zHZ6vDbFWnTpDd22ARu2B7gCRuNM/T61cnFtPTvK3p8nlo5scbw1Ercydp/OSith5I79VzFS9d5t3YWxElVpr12hPjxTaVuz3eTmpcenm07yuU0kz1Vb6s4bGPGHqKg4hjiuKNvH5Sq6/FGOke/5S/U2gfyZd/1Wz/gNXHcpm0puUWyzvhrheKPiftZK3NjgdmeR5iUGp0CvoyxmKQYZGFzXM1YHsNJGU2AGhHM4DYUHWICAgICAgICAgICAgICAgkEEUGG16uv3IPNuFc9xWjxD6wg8guQ9oj6/bcq1qenMvd8HtPmFI9/3pbFjlvyrc26s0MuwqO1U2O8Mx1Bw2epbY59UpckdrQ2bWVZUdIWt4It1ULxaMqmh1jo21V3S5opPVDqYi1do7w3lzRcXHixtc52TQ01y1V9JPUu5FvKxER2eQ4tro2jFMbbdZZrJYcNqc9z6thYMtn7+Z59VF0on9xEePR8r1tvRtWsfStM/XtLPet5COJ9ocaBgyGvE4963pJ960nlx9JVNNpbZcsYaxvM/48ZecuvGWeYzPjGJ1KurTICgypup5lti579q7fF7bDwPJGOMePtHiyzkB2Joo47TmebmU15mkbOpp+BRSIjLPN7PV+f66KMhqakmp1k5mu8lUL36utTFSm1YjZJ1mqK71rMTsseb80c0rEFloBvK3pi5Y3nus4sHLC+IqNViK7QveTitXPaSnkAfSHqK5fE/4Ue/5S4HF/oxHt+Uv0/oJ8m3f9Vs/wCAxcNwm8QcJpbZTY7XHb4+THMWxz7AyUZRSnc0irHHca6yEHb2aYPaHDr5jtQZEBAQEBAQEBAQEBAQEBBIIIoK9uPJHT7ig804VXdxWjxD7QQeSXI3uePyvbctZh7Xg8/+HT4/elacViroXjfrCLXmq3msbIazO7ZWSXKh/P8AlV5jaXQpfeuzY2GTCyp70VHTWlFm/iRG/RrrbLjfn83zZlKT6O7W9Y5uV1+ilgxMYRQ4SW9Ao01PnK6+gyTyzMvAftXamLL74+cr01ykiRxOchrXrqPcu7j1MV5Yj1PmuoyX5+aI6Q5PS6Or4oK1EbcZ8Z1QK9AH/ZW8UReJvPi9J+zeKsxbNPeZ2+Efn9jVfotArFYfQtLWOVhmgyVfLRYvj6K8VhAOJ3SB8VWrp/XKDHpdvSsycUtvJp613hYDOV5vUkx1WqR6TNOFtZNk6w5nSVvIB+kPUVyeKR+5j3/KXmuLx6MT7flL9PaCfJt3/VbN+AxcJwm8QVrzsEdoikglFWSNLXDp2jcQaEHeEHKaE3hJE6Sw2g1lgIjJ+eynapRzObQH0oO0QEBAQEBAQEBAQEBAQEEggigq3keSOn3FB5lwpnuO0eJ/UEHllwitnj8r23Lasbw9rwj+Tp8fvSsPYtbV2dHq+siFKlac09m0Y423ZoRTqUV5S467LdvdRkbAddXn1D+pb446TKPLPpxENfaa4qcwUmOtdt0Oe9+bZ6ZwawOMEmdBicCNpBY2vpXRwzFab7et4D9pomdZFN/6N/8AMuqvmMRsxAYjQ0GqpptKmwWm1tpeRz6OJiIiXilptEr5JJJO+LuUaUFdQA5gAAvWY8dYrFYei4bGPHFaV7LdmaHCh1rWZ5Zet02XbZllsJpUjIU/PrUXNFpdSnpT1ULTESsWbZYmVcMWqOsdEtq0tCSEpnLWS9nO6RntY8Yepy5fFf4Mf7vlLg8V/hx7/lL9PaCfJt3/AFWzfgMXAcJvEBBx2n1hMZjvKJtXwDDO0a5LOTyuth5Q69yDo7lt7ZomvDg7IGo2girXDpCC8gICAgICAgICAgICAgkEEUFO9TyB0+4oPMOE93cdo8T3hB5dcTqQR+V7blrF9pl7jg8R5lT4/elea4LabxMOly+CQUNklIZrHStHaitZ2ltHSJVzIXPaTqoAOgfn0qaPRryqk73yxaOzM2zulkIjFTqpkDltz2K3p9NbdS1urrWd56Q9W0cj/RmRMpm5oJ6doP52K/OPeu3g+cca1HlNVGXfxj4ep0VtAewxvzDhTLWKgjIqvT0Z5oVpnp4vMrzsPEyOhc7HHJyI2MGbBXJzsW2pzOfuXotPn8rXmjvHWZlS5smKeeJiJjr1nuqWW6C1skmQcHCKPGQwYj3zzU8prRTVv1KbPqY6Vjw3nbr8Pi9Hg12bPSlaxMRPW23Xp4ezf9Sx3pZ+JDWRzcc49+8yMpXcyPFkNeup6FFhyWt1tG3hG3zeo0GfLtvff2R1+1o7ReD2Gjm06Rkevap5yL19dNe8MRvT6LfT8Vjna+f7R2hgdbwdYotJsj89rPeETbAcgVrvDSdVW3aWmv6WrAPpA+grk8Vn91Ee35S5XEMvNSI9v4v1HoJ8m3f9Vs34DFwXJbxAQfHtBBBAIORBzBB1ghBwFxvN3Wt9hcTxWclnJqawuccTK7XMdXnI5kHoAKAgICAgICAgICAgICCQQRQUL5PIHjD1FB5fwmHuO0eIfWEHltzDtEfle2VBtveXteFW5dDT4/elbEqniI9cLsZpW4BXb59Sx5KLdlqmWdvFG0yYciRnqNclr5LlneUOXVR1rEdVq7bA+QUDTszFD5t6uYcXPO8w52r1tcOKKxPfu3ujFzuilOPNu866g1ofSujh3rO0OFr9bhnTxM222n/DsXz4zUZAYRntAdr6VZ8nyQ+Z67VzqMszHSPUvNviMYmOlYJAHBodrrlQjeq1sE77xHRf0tNRl083iPZu1FrbZbLR0ry+U8oYhnUZ97vG7ZltzM+O+XJG1ekL+k4Pkz2m8RvEeM9v+/8Apxt424zGR2M0cf3zXC0HIDca/u9C6GOnJERt9T2uDT+RrWsRHwj9fW56oB1npVnmXYtMLcbqilQQdYNFt37rdLRaNp6w19rsIrVvJPzdY6tyhtjjvVRzaWvfHO3sa201aM/OoMkzWOrnZYmnSyk6bcVUtln1Kk38GK8bRiZnrqM1U4hl58MRPff5S0zZOau0v1doJ8m3f9Vs34DFxlVvEBAQczwgXVxtmM7CGzWWs8bjkKNFZGE/Nc0HrAQWdFLy4yMRuycGte0HXge0OGvdUdRCDeoCAgICAgICAgICAgkEEUGuv49rHjD2XIPLeEl3clo8Q+sIPNbjHc8fle25V4ttme44XXm4dT4/elN4V7lY7M8UlAsTtEJsd+qTnA1rqP5qo7X3nZLtF/e3Vx42ckPFK6wfQd21XsMzTZ5ziNIy1l2t3ytdRryATlU9OSvzH9VXh8k2iZx2Z71mjjgkLnd4D0nLk09Smxxabx7XCyafbN6PrcFFePGt1njGVdXbQ1rQ9OfUd66V61iej0HB7Tp9TFLfQv0+Pq/D6lO0W+U1Y9xI/OfSsRjpE7xD3mHHjrO9Y2lgkdt8yl26LkxHKoP1rSZU7b7pwuptSLN8dpiVkyg0B2ajzblmZS828s01ka4ah1rE13jqlz6XylWitlzkd7l6lTyaWP6ejh5NBkr2aW2wuaCHBcfW0vWkc0ev8XPy47U6WfrPQX5Nu/6rZvwGLmIG8QEBBzHCBIXwRWNhIfbJWQVGsR1xTO6AxpHlIMmk1lMIitcDaGCgcwanRaiKcw/OSDfWO0tlYyRhq1wDgeYoMqAgICAgICAgICAgkEEUGr0iPa2+MPZcg8s4Rj3JP4h9YQed6P8A7CPyvbcoLx13e54NWbaKke/70tgbOt6Z/VK5m0m3WFGRtDRJybqnJNJ6pg11Bb8u7OO0tlYpS1zdxoCuhWN4hzdTj5qWn3umNpGLFSrWCtNpK6+KvobPneqvHPzOZtWlcjZHukBkANAytGjPYFJesUhtj0lcsRuvWO+YrRy+KDTXMA7D60x839Mo8ul8j2n2x74VNJLGYXsJNWPFWP37wfpDb5+YWcd4tG3rh67hXEqajH1+lHSf14S10UwIpuU0Tu7uPJFo2VZHZqKZVrztL4HLG7ET603TZZJa+8bN5y9Oi7YrWCt8eT1S6Om1MStytDgpp2layVreHM6TQBsYP0gPQfguHxeu2KJ9vyl5ri2GKUiY8flL9O6C/Jt3/VbN+AxefcJu0BAQctZu6b2lfrZYohE3LLjp+VIQeaMNaelB1DmgggioORB2g7Cg5m4nGyWmSwurxb6y2cnce+ZXfr8xQdOgICAgICAgICAgIJBBFBqdJT2pvjj2XIPKuEV3ck/iH1hBwWjw7nj8r23Krkn0tn0HgEf+FSff96W5YNail18nZTnYM69XmWaW5Zc7LTn6M9hhDSCurjmJjo5Obmp6Mt1dd1gvMr9QNWt3neeZdXTaaZ627PGcd/aTzek6bTfTnvb+33f/AF9i/bbN+0p/tl2WzYutExFfjs8Tp7zNY38Xml+Etc6v71PX/hRaqYrT3vVaP6LBdk7mOqHUCgwW2lNnxxartHWttps3FOObTiaTnQ6umm/4gK9FOed6uRpMltJqN/VPRz8EZY8tcKawa7CNn+doIKzWdp6vecOzRefer280UOWyXVdJ6MDZFFzIIt0fOMWObqxzMrZc6jWt99+ySuTad4bSx2vFkVPjyb9JdfT6iLxtLXaVntQ8cey5c7i8/uY/3R9kufxqf3Nf90fZL9K6C/Jt3/VbN+AxedeabxAQYLda2wxyTPNGRtc9x5mtJPqQaPQCyOZZGyyDttpc+1SeNMcTRnuZgHUg6NBp9KLtM0QfHlLEccZGvLMgdNAekBBduq2GWJkhbhcRyhuO2nNtHMUFtAQEBAQEBAQEBBIIIoNRpQe1N8cey5B5RwiHuSfxfeEHD6Of6dnle25U8s+lL6DwH+Rp8fvS27B8SdmtRT1deVSZ1VJSvVUyxtDZXHYcZBdk0Zk8y7ehwc8+x4f9pOK+Z4JtH0p6V9/j7o7/AOPW3UspPe5AL0tKRHR8siO83neZZ2nkTSudQcW4HzUHpKxk9VY8UuGOsVh5rpBByq6//VBqab9XrtJMTjjZp2Op7lUr0WphuLltRa8VPJdkevWr+lyTvs5esxbxvHdubVCXxPfliiczFvc3MNPmd+aK3q4iu1o9f6lb4PrIpnrSe1t9vnDR29m0aiuflj1vVaqvXmjsp41BzKfMOck2JlHGsRZruyRWghbc894SY801ljvi1Y4gPpA+gqpxDLz4Y9/yljW6jymKI9vyl+ptBfk27/qtm/AYuM5TeICDluEHFJFBY25C1zsikdXDhibWWU18VlOfEg6lrQMgKAZAbggICDBZ7KGOe4OccVMieS2mxoAy2nOp6qBBnQEBAQEBAQEBAQSCCKCpeti46MsrQ1Baecb+bMoOE0h0NtE8b4uLBDgW1DmDWKVFSg85j4K78i5EXF4ATTtkequ41p0VWlsdbTvML2DiWqwU5Md5iPDon+rbSDVSOn8SH4LHkqeCX/Wdb/7J+qPwR/Vjf26P7SL4LaKxHZrbiust3vP+PwWo9ANImjCHRgePD8FZx6nLjjas7OTqsNNVaLZo5pjs+t0C0jGWOP8Anh+Cl8/1H932K08N0s/0fb+L5Jwf6ROaWF0eE0JHGQ7MxsTz/Ub7832Nq6DT1neK/apTcFV+ONXCI/8AJH8FidfqJ72+xYpirSNqwwfqfvn/AG4vtI1H5zl8UibOCK+hqZEP+SNZrqs1e1mtqVt3hZHBjf1C3tdHZEcZHnkRnluJUtuI6m0bTf7EddPjraLRHWOzEeCm/CKUip/Ej+C088z/ANy9OqzTG02Y/wBUd9fMi+0j+C086y/3I/K38T9UV9fMi+0j+Cec5fE8rfxfP1Q3z8yH7SP4LHnGTxY8pbxfRwQXz82H7RnwWfOcvieUt4rN28Cl5SSNFofFFFUF7g4PdTbha0ZnpICjvktb6UtZtM936EsdmbFGyJgo1jWsaNzWtAA8wWjDKgIOU080YktzGNjldG5jmva5tCKBrmlrm42/OqCDzEZBBUsk98wRsgbYoJhG1rBKZ6F4a0AOIcagmmpBm7K314Mg+8D4oHZW+vBkH3hvxQfey18+C4PvDUH3stfPguH7w1A7LXz4Lh+8NQOy18+C4fvDUDsrfPguH7w1A7K3z4Mh+8NQOyt8eDIfvDUDsrfPgyH7w34oHZW+fBkP3hvxQXbpt94vkaLRYo42HvnNla8jI6gDvpsQdCgkEEUBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEEggigICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgkEH/2Q=="
+          alt="IPad Pro"
+        />
         <p>
           Apple has made it abundantly clear throughout the iPad’s decade of
           existence that it’s a touch-first device. It can replace a traditional
@@ -41,8 +83,11 @@ iPad Pro">
       </article>
       <article class="secondarticle">
         <h2>TikTok: How did the video-sharing app get so big so quickly?</h2>
-        <img src="https://images.newscientist.com/wp-content/uploads/2020/03/11102426/gettyimages-1073325580_web.jpg?width=800f" alt="TikTok" >
-        
+        <img
+          src="https://images.newscientist.com/wp-content/uploads/2020/03/11102426/gettyimages-1073325580_web.jpg?width=800f"
+          alt="TikTok"
+        />
+
         <p>
           IT HAS rejuvenated the music industry and given birth to a new
           generation of celebrities, including the likes of Charli d’Amelio, a
@@ -51,12 +96,18 @@ iPad Pro">
           tracking company Sensor Tower. Its rise to become one of the big
           beasts of social media has been remarkable, so how did TikTok do it?
           The app, which people use to share short videos, often accompanied by
-          clips of music, … <a href="https://www.newscientist.com/article/mg24532733-000-tiktok-how-did-the-video-sharing-app-get-so-big-so-quickly/">Read more:</a>
+          clips of music, …
+          <a
+            href="https://www.newscientist.com/article/mg24532733-000-tiktok-how-did-the-video-sharing-app-get-so-big-so-quickly/"
+            >Read more:</a
+          >
         </p>
       </article>
       <article class="secondarticle">
         <h2>E-scooters are a disaster for cities – but we must embrace them</h2>
-        <img src="https://images.newscientist.com/wp-content/uploads/2020/02/25171214/feb_29_e-scooter.jpg?width=800 alt="E-scooters are a disaster for cities – but we must embrace them" >
+        <img
+        src="https://images.newscientist.com/wp-content/uploads/2020/02/25171214/feb_29_e-scooter.jpg?width=800
+        alt="E-scooters are a disaster for cities – but we must embrace them" >
         <p>
           BACK in Brisbane, Australia, for the Christmas break, I found myself
           in a public transport dead zone. Bikeless, 7 kilometres from where I
@@ -67,16 +118,84 @@ iPad Pro">
           took far longer than it would have by bike, not least because of a
           major spill halfway there. A stray rock, hit at speed, is a terrible
           thing: weeks later, I still had the scabbed-up knees of a primary
-          schooler. …<a href="https://www.newscientist.com/article/mg24532712-800-e-scooters-are-a-disaster-for-cities-but-we-must-embrace-them/">Read more:</a>
+          schooler. …<a
+            href="https://www.newscientist.com/article/mg24532712-800-e-scooters-are-a-disaster-for-cities-but-we-must-embrace-them/"
+            >Read more:</a
+          >
         </p>
       </article>
-      <aside>
-        <h2>About</h2>
-        <p>njhfjhjblkjgbkjlblnkjvhdnklvjdnrkvljdbhkbgjhjkhglkjghkdh</p>
-      </aside>
+
+      <article class="secondarticle">
+        <h2>
+          Why people become strangely attached to their robot vacuum cleaners
+        </h2>
+        <img
+          src="https://images.newscientist.com/wp-content/uploads/2020/03/17171603/main_947127956_web.jpg?width=800"
+          alt="vacuum cleaner robot"
+        />
+        <p>
+          So, what do you do? I’m a researcher at MIT, where I study
+          human-machine interaction from a social, legal and ethical
+          perspective. When humans interact with machines like robots, they
+          often seem to develop an emotional connection. Why? We are very social
+          creatures and we tend to subconsciously treat robots like they are
+          alive, even though we know they are just machines. Part of this comes
+          from our tendency to anthropomorphise, i.e. to project human traits,
+          motivations and behaviours onto non-humans, like our pets. We do this
+          in order to make sense of the world around us. … …<a
+            href="https://www.newscientist.com/article/mg24532741-700-why-people-become-strangely-attached-to-their-robot-vacuum-cleaners/"
+            >Read more:</a
+          >
+        </p>
+      </article>
+
+      <article class="secondarticle">
+        <h2>
+          To make smartphones sustainable, we need to rethink thermodynamics
+        </h2>
+        <img
+          src="https://images.newscientist.com/wp-content/uploads/2020/03/11103129/computersart.jpg?width=800"
+          alt="devices connected to others"
+        />
+        <p>
+          The data centres servicing our beloved digital devices gobble huge
+          amounts of electricity. A new way to think about heat and energy could
+          help us meet growing demand without burning through the world's
+          resources…
+          <a
+            href="https://www.newscientist.com/article/mg24532733-300-to-make-smartphones-sustainable-we-need-to-rethink-thermodynamics/"
+            >Read more:</a
+          >
+        </p>
+      </article>
+
+      <article class="secondarticle">
+        <h2>
+          Twitter was once a fun place – now it is heading towards destruction
+        </h2>
+        <img
+          src="https://images.newscientist.com/wp-content/uploads/2020/03/11130553/gettyimages-524276218_web.jpg?width=800"
+          alt="sad cat"
+        />
+        <p>
+          I WAS at the South by Southwest (SXSW) festival in Austin, Texas, in
+          2007, the year that Twitter turned the hallways into a marketing
+          prank. Flat-screen monitors in the corridors broadcast a Twitter feed
+          comprised almost entirely of people at SXSW, talking about SXSW.
+          Frankly, my friends and I thought it was stupid. We kept asking what
+          this idiotic app was for. Answers were confused and various: it was
+          for talking about things that were happening while they happened (thus
+          creating fear of missing out, whose acronym, FOMO, hadn’t yet become
+          popular); it was for telling interactive stories …
+          <a
+            href="https://www.newscientist.com/article/mg24532734-900-twitter-was-once-a-fun-place-now-it-is-heading-towards-destruction/"
+            >Read more:</a
+          >
+        </p>
+      </article>
     </div>
-    <div id="footer">
-      Copyright &copy; 2020 JeanPaul.
-    </div>
+         <div class="footer">
+           Copyright &copy; 2020 JeanPaul.
+         </div>
   </div>
 </body>
