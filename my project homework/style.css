@@ -3,139 +3,22 @@
   padding: 0;
 }
 
-header {
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #eee;
-  width: 100%;
+.display {
+  display: inline-table;
+  vertical-align: middle;
+  font-size: 30px;
 }
 
-.title {
-  font-size: 60px;
-  margin-left: 150px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
+.jumbotron {
+  background-image: url(img/City_Landscape_Background.jpg);
+  background-size: cover;
 }
 
-.nav-bar {
-  width: 30vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style: none;
-  color: black;
-}
-
-.nav-bar li {
-  display: inline;
-}
-
-.nav-bar li a {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.container {
-  margin: 10px auto 0 180px;
-  padding: 20px 20px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 70%;
-}
-
-article {
-  max-width: 350px;
-  border: 1px solid red;
-  margin: 10px;
-  padding: 15px;
-  box-sizing: border-box;
-  flex: 1;
-}
-
-img {
-  width: 250px;
-  height: auto;
-  padding: 20px;
-}
-
-p {
-  font-size: large;
-}
-
-.aside-bar {
-  position: absolute;
-  top: 150px;
-  right: 10px;
-  padding: 20px;
-  height: 70%;
-}
-
-.aside-bar a {
-  color: black;
-  padding: 20px 10px 30px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.about {
-  text-align: center;
-  color: blue;
-  text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer {
-  padding: 15px;
-  margin-top: 15px;
-  color: black;
-  text-align: center;
-}
-
-@media (max-width: 650px) {
-  header {
-    position: fixed;
-    width: 100%;
-  }
-
-  .title {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    margin-left: px;
-  }
-
-  .nav-bar {
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container {
-    margin-top: 100px;
-    margin-left: 60px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .aside-bar {
-    position: static;
-    padding: 20px;
-    display: flex;
-    width: 100%;
-    align-items: center;
-  }
-  .aside-bar a {
-    color: black;
-    font-size: 10px;
-  }
-  .about {
-    font-size: 12px;
-  }
+/* .one {
+  background-image: url(img/City_Landscape_Background.jpg);
+  color: white;
+} */
+.image {
+  background-image: url(img/City_Landscape_Background.jpg);
+  color: white;
 }
