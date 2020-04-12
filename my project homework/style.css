@@ -14,11 +14,9 @@
   background-size: cover;
 }
 
-/* .one {
-  background-image: url(img/City_Landscape_Background.jpg);
-  color: white;
-} */
-.image {
-  background-image: url(img/City_Landscape_Background.jpg);
-  color: white;
+.footer {
+  padding: 15px;
+  margin-top: 15px;
+  color: rgb(6, 93, 255);
+  text-align: center;
 }
